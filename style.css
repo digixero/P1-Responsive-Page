@@ -1,0 +1,80 @@
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.workdisplay {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.name {
+	width: 50%;
+	padding: 0px 10px 0px 0px;
+}
+
+.logo {
+	width: 50%;
+}
+
+h1 {
+	font-size: 6vw;
+	text-align: right;
+	font-weight: 300;
+	margin: 10px 10px 0px 0px;
+}
+
+p {
+	font-size: 4vw;
+	text-align: right;
+	margin: 10px 10px 0px 0px;
+}
+
+h2 {
+	font-size: 5vw;
+}
+
+.wall {
+	width: 100%;
+}
+
+.wall img {
+	width: 100%;
+}
+
+.logo img {
+	max-width: 50%;
+	margin: 10px 0px 10px 10px;
+}
+
+.workdone {
+	padding: 10px;
+	width: 100%;
+	text-align:center;
+}
+
+.workdone h3 {
+	font-size: 3vw;
+}
+
+.workdone a {
+	font-size: 1.3vw;
+}
+
+.workdone img {
+	border: 3px solid white;
+	margin: 10px;
+	max-width: 100%;
+}
+
+@media screen and (min-width: 600px) {
+	.workdone{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 900px) {
+	.workdone{
+		width: 33.33%
+	}
+}
